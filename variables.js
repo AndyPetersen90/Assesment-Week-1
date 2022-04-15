@@ -3,19 +3,21 @@
 
 //CODE HERE 
 
-let myName = "Andrew"
+let myName = "Andrew";
 
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
 //CODE HERE
 
-let faveNum = 25
+let faveNum = 25;
 
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
 //CODE HERE
+
+let lovesCode = true;
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -26,9 +28,19 @@ let faveNum = 25
 
 //CODE HERE
 
+if (faveNum === 13){
+  console.log("Lucky 13!");
+} else {
+  console.log("Not lucky 13.")
+}
+
 //////////////////PROBLEM 5////////////////////
 /*
   Write a for loop that prints out your faveNum 5 times.
 */
 
 //CODE HERE
+
+for (i = 0; i < 5; i++){
+  console.log(faveNum);
+}
