@@ -16,6 +16,22 @@ reader.question("Please enter the password you would like to validate.", functio
         console.log("Your password is too short.");
     };
 
+   for ( i = 0; i < password.length; i++){
+       character = password.charAt(i)
+       uCharacter = character.toUpperCase(i)
+       if (character === uCharacter){
+           upassword = "true";
+       } else {
+           upassword = "false"
+       }
+   }
+
+   if(upassword === "true"){
+       console.log("Your password contains a capital letter.");
+   } else {
+       console.log("Your password Must contain a capital letter.");
+   }
+
 
     reader.close()
 })
