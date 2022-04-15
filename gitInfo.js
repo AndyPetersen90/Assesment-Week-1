@@ -91,3 +91,5 @@ let gitCommitCode = "git commit -m 'Initial commit'"
 */
 
 //CODE HERE
+
+let gitPushDefinition = "This command is used to take your current git repo and send it to your GitHub cloud repo."
