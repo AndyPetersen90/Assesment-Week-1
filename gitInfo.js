@@ -65,6 +65,10 @@ let gitStatusDefinition = "This command essentially lets you know your current d
 
 //CODE HERE
 
+let gitAddDefinition = "This command will take all the changes you have made since your last commit and prepare them to be commited."
+
+let gitAddCode = "git add ."
+
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -76,6 +80,9 @@ let gitStatusDefinition = "This command essentially lets you know your current d
 
 //CODE HERE
 
+let gitCommitDefinition = "This command is used to commit, or save, your project to your local git repository."
+
+let gitCommitCode = "git commit -m 'Initial commit'"
 
 //////////////////PROBLEM 8////////////////////
 /*
